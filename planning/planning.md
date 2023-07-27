@@ -53,6 +53,11 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ### Tests
 
+    - shape is not undefined
+    - text is not undefined
+    - colour is not undefined
+    - logo.svg exists
+
 ### SVG Generation
 
     - Template each shape // using classes?
