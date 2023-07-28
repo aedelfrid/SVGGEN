@@ -1,3 +1,3 @@
-const FS = require('fs');
-const inquirer = require('inquirer');
+const {questions, askQuestion} = require('./lib/inquirerUtil')
 
+askQuestion(questions);
