@@ -28,3 +28,5 @@ const askQuestion = async (questions) => {
 };
 
 askQuestion(questions);
+
+module.exports = { askQuestion };
